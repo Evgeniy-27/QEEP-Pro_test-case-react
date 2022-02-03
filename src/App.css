@@ -1,0 +1,61 @@
+/* Global Styles */
+
+@import url("//fonts.googleapis.com/css?family=Work+Sans:300,400,600");
+
+html,
+body {
+  color: #333;
+  font-family: "Work Sans", sans-serif;
+  line-height: 1.4;
+}
+
+.analysis {
+  display: flex;
+  /*text-align: center;*/
+  background-color: rgba(169, 248, 244, 0.5);
+  display: block;
+  /*max-width: 80%;*/
+  color: rgb(21, 62, 197);
+  border: 2px solid rgb(0, 255, 128);
+  padding: 10px;
+  margin: 15px;
+}
+
+h2 {
+  margin-left: 10%;
+}
+
+.charts {
+  display: flex;
+  /*justify-content:space-between;*/
+}
+
+.chart-Post,
+.chart-Donut {
+  padding: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.tabl {
+  width: calc(50% - 24px);
+  display: inline-block;
+  box-sizing: border-box;
+  margin-left: 15px;
+}
+table {
+  border-collapse: collapse;
+  border: 2px solid #808080;
+}
+
+td {
+  border: 1px solid grey;
+}
+
+button {
+  display: inline-block;
+  vertical-align: top;
+  width: calc(16% - 2px);
+  padding: 22px;
+  margin: 0 auto;
+  text-align: center;
+}

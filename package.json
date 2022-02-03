@@ -1,0 +1,66 @@
+{
+  "name": "test-case-react",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://evgeniy-27.github.io/ra-props/",
+  "dependencies": {
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/material": "^5.4.0",
+    "@mui/styled-engine-sc": "^5.3.0",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^0.25.0",
+    "chart.js": "^3.7.0",
+    "faker": "^5.5.3",
+    "moment": "^2.29.1",
+    "prop-types": "^15.7.2",
+    "push-dir": "^0.4.1",
+    "react": "^17.0.2",
+    "react-chartjs-2": "^4.0.1",
+    "react-charts": "^2.0.0-beta.7",
+    "react-dom": "^17.0.2",
+    "react-promise-tracker": "^2.1.0",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "5.0.0",
+    "shortid": "^2.2.16",
+    "styled-components": "^5.3.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evgeniy-27/ra-props-films_listing.git"
+  },
+  "author": "Evgeniy <Li.Evgen@yandex.ru>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Evgeniy-27/ra-props-films_listing/issues"
+  },
+  "description": ""
+}
